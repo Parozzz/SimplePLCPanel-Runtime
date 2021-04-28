@@ -1,0 +1,23 @@
+[28-4-2021 12:46:01]
+Level: SEVERE
+InvolvedClass: JavaFXMain
+Message: Error while Parsing Saved Data
+org.json.simple.parser.JSONParser.parse(JSONParser.java:257)
+org.json.simple.parser.JSONParser.parse(JSONParser.java:92)
+parozzz.github.com.hmi.JavaFXMain.start(JavaFXMain.java:49)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+java.base/java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+java.base/java.lang.Thread.run(Thread.java:834)
+
+[28-4-2021 12:46:02]
+Level: INFO
+InvolvedClass: SiemensPLCThread
+Log: IPAddress: 192.168.1.5, Rack: 0, Slot: 0
+Message: Cannot connect to Siemens PLC
+
